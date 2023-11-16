@@ -1,0 +1,449 @@
+body {
+    background-color: #232830;
+    margin: 0;
+    min-width: 100%;
+    overflow-x: hidden;
+  }
+  
+  .top-bar {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .right-nav {
+    display: flex;
+    padding-right: 50px;
+    padding-top: 15px;
+  }
+  
+  .left-nav {
+    padding-left: 50px;
+    padding-top: 15px;
+  }
+  
+  p {
+    padding: 10px 0;
+    color: white;
+    font-family: poppins;
+    
+  }
+
+  .main-head {
+    display: flex;
+    justify-content: center;
+  }
+
+  .logo {
+    max-width: 194.45px;
+    max-height: 204.08px;
+    display: flex;
+  }
+
+  h1 {
+    color: #FF7575;
+    font-family: recursive;
+    font-weight: 400;
+    font-style: italic;
+    margin-bottom: 7px;
+    font-size: 71px;
+
+  }
+
+  .sub-head {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 50px;
+    font-size: 29px;
+  }
+
+  .card {
+    background-color: white;
+    border-radius: 22px;
+    display: flex;
+    flex-direction: column;
+    max-width: 390px;
+    max-height: 439px;
+    margin: 20px;
+    padding: 20px;
+    position: relative;
+  }
+
+  .description {
+    color: black;
+    padding-top: 0;
+    margin-top: 0;
+    font-size: 16px;
+  }
+
+  .row-1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .card-image {
+    width: 100%;
+    
+  }
+
+  h3 {
+    font-family: poppins;
+    font-size: 19px;
+  }
+
+  .cat-list {
+    display: flex;
+    border-top: 3px solid rgb(77,77,77);
+    border-top: 3px solid rgba(77,77,77, .2);
+    background-image: linear-gradient(to right, rgba(35, 40, 48, 0.0), rgba(35, 40, 48, 1.0));
+    z-index: 6;
+    margin-top: 10px;
+    position: relative;
+    width: 100%;
+  }
+
+
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+
+  }
+
+  .vector1 {
+    padding: 0;
+    padding-right: 5px;
+    
+  }
+
+  .vector1img, .vectorimg {
+    width: 90%;
+  }
+
+  .gradient {
+    height: 19px;
+    min-width: 125px;
+    position: absolute;
+    background-image: linear-gradient(to right, rgba(35, 40, 48, 0.0), 90%, rgba(35, 40, 48, 1.0));
+    z-index: 9;
+  }
+
+  .container {
+    width: 125px;
+    height: 100%;
+    position: relative;
+  }
+
+  .cat, a {
+    text-decoration-line: none;
+    font-family: recursive;
+    font-style: italic;
+    color: #909090;
+    padding: 0px 20px;
+    position: relative;
+    
+  }
+
+  .page-num {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 200px;
+  }
+
+  .nums, .two {
+    padding: 0px 30px;
+    font-family: recursive;
+    font-style: italic;
+    color: #909090;
+    font-size: 25px;
+     
+  }
+
+  .cards-div {
+    padding-bottom: 50px;
+  }
+
+  .two {
+    /*border-top: 3px solid #FF7575;*/
+    color: #FF7575;
+    
+    ;
+  }
+
+  .link-two {
+    width: 80%;
+    height: 100%;
+    border-top: 3px solid #FF7575;
+    padding: none;
+    padding-top: 10px;
+    margin: none;
+    color: #FF7575;
+  }
+
+  .border {
+    border-top: 3px solid #FF7575;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    font-family: source sans pro;
+    border-top: 3px solid rgb(77,77,77);
+    border-top: 3px solid rgba(77,77,77, .2)
+  }
+
+  .left-footer {
+    display: flex;
+    margin-left: 300px;
+  }
+
+  .blue-box {
+    border-radius: 5px;
+    
+    margin-left: 20px;
+    max-height: 10px;
+    margin-top: 20px;
+
+  }
+
+  .right-footer {
+    display: flex;
+    justify-content: center;
+    margin-right: 300px;
+    background-color: #4699E0;
+    border-radius: 5px;
+    max-height: 35px;
+    padding: 1px 7px;
+    margin-top: 20px;
+
+  }
+
+  .footer-name {
+    font-size: 30px;
+    margin-top: 20px;
+    padding-top: 0px;
+    
+  }
+
+  .by {
+    padding: 1px 7px;
+    font-size: 19px;
+    margin: 0px;
+    margin-top: 5px;
+    background-color: #4699E0;
+    border-radius: 5px;
+    max-height: 35px;
+  }
+
+  .tweet {
+    object-fit: contain;
+    padding: 3px;
+    justify-self: center;
+  }
+
+  .follow {
+    padding: 5px 0px;
+    margin: 0;
+    white-space: nowrap;
+    font-size: 19px;
+    justify-self: center;
+  }
+
+  hr {
+    color: rgb(77,77,77);
+    color: rgba(77,77,77, .2)
+  }
+
+  .card-footer {
+    width: 60%;
+    height: 25px;
+    
+    justify-self: left;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: flex-end;
+  }
+
+  .datestamptest, .devops-p {
+    color: #0F1217;
+    font-size: 16px;
+    font-family: poppins;
+    padding: 0;
+    white-space: nowrap;
+    margin: 0;
+  }
+
+
+
+  
+  .dot {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+
+  .datediv {
+    width: 100%;
+    height: 25px;
+    margin: auto;
+    justify-self: end;
+    margin-bottom: 0;
+
+  } 
+
+  .descript-and-foot {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+  }
+
+  .top-nav {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+
+
+
+
+
+ 
+
+  @media only screen and (max-width: 1400px) {
+    .card-footer {
+      width: 100%;
+    }
+
+    .cat {
+      font-size: 0.9em;
+    }
+
+    .vector1img {
+      
+      width: 80%;
+    }
+
+    .vectorimg {
+      
+      width: 80%;
+    }
+
+    .right-footer {
+      margin-right: 200px;
+    }
+
+    .left-footer {
+      margin-left: 200px;
+    }
+  }
+
+
+
+    @media only screen and (max-width: 1200px) {
+      .cat {
+        
+        padding-left: 0px;
+        padding-right: 0px;
+        
+      }
+
+      .right-footer {
+        margin-right: 100px;
+      }
+
+      .left-footer {
+        margin-left: 100px;
+      }
+  
+    }
+
+    @media only screen and (max-width: 870px) {
+      h1 {
+        font-size: 50px;
+      }
+  
+      .sub-head {
+        font-size: 20px;
+      }
+  
+      .nums, .two {
+        font-size: 1em;
+        padding: 0px, 10px;
+      }
+  
+      .card {
+        margin: 7px;
+      }
+  
+      
+      .right-footer {
+        margin-right: 10px;
+        max-height: 25px;
+      }
+  
+      .left-footer {
+        margin-left: 10px;
+      }
+
+      .footer-name {
+        font-size: 0.99em;
+      }
+
+      .follow, .by {
+        font-size: 0.9em;
+      }
+
+      .follow {
+        margin-bottom: 5px;
+      }
+
+      .tweet {
+        height: 0.9em;
+        padding-top: 5px;
+      }
+      
+      li.cat {
+        font-size: 0.85em;
+      }
+      
+  
+      }
+
+    @media only screen and (max-width: 700px) {
+      .datestamptest, .devops-p {
+        font-size: 10px;
+      }
+  
+      .description {
+        font-size: 12px;
+      }
+  
+      h3 {
+        font-size: 14px;
+      }
+  
+      .card-footer {
+        width: 100%;
+        justify-self: center;
+      }
+  
+      
+  
+      h1 {
+        font-size: 50px;
+      }
+  
+      .right-footer {
+        margin-right: 10px;
+      }
+  
+      .left-footer {
+        margin-left: 10px;
+      }
+    }
+  
